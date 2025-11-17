@@ -1,0 +1,86 @@
+{
+  "name": "market-intelligence-platform",
+  "version": "1.0.0",
+  "description": "Real-time market intelligence platform with AI-powered analysis",
+  "author": "Market Intelligence Team",
+  "license": "PROPRIETARY",
+  "homepage": "https://5ee0zczk1wdc.space.minimax.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/market-intelligence.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/market-intelligence/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "build": "pnpm --filter frontend build",
+    "test": "pnpm --filter frontend test",
+    "lint": "pnpm --filter frontend lint",
+    "lint:fix": "pnpm --filter frontend lint:fix",
+    "type-check": "pnpm --filter frontend type-check",
+    "clean": "rm -rf node_modules dist .turbo",
+    "install:all": "pnpm install && pnpm --filter frontend install && pnpm --filter backend install",
+    "setup": "npm run install:all && cp .env.example frontend/.env",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "docs:build": "cd docs && npm run build",
+    "docs:serve": "cd docs && npm run serve"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run type-check"
+    }
+  },
+  "keywords": [
+    "market-intelligence",
+    "cryptocurrency",
+    "trading",
+    "analytics",
+    "real-time",
+    "ai",
+    "blockchain",
+    "defi",
+    "dexscreener",
+    "coingecko",
+    "probability",
+    "sentiment-analysis",
+    "portfolio-management",
+    "alerts",
+    "waifu-persona"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/your-org"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

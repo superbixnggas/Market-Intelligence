@@ -1,0 +1,103 @@
+PROPRIETARY LICENSE
+
+Copyright (c) 2025 Market Intelligence Platform
+
+All rights reserved.
+
+This software and associated documentation files (the "Software") may not be 
+used, copied, modified, merged, published, distributed, sublicensed, and/or 
+sold without the express written permission of the copyright holder.
+
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+===============================================================================
+
+THIRD-PARTY LICENSES AND ATTRIBUTIONS
+
+This software incorporates code from third-party sources, each subject to their 
+own license terms:
+
+1. React - MIT License
+   Copyright (c) Facebook, Inc. and its affiliates.
+
+2. TypeScript - Apache License 2.0
+   Copyright (c) Microsoft Corporation.
+
+3. Vite - MIT License
+   Copyright (c) Evan You.
+
+4. TailwindCSS - MIT License
+   Copyright (c) Tailwind Labs, Inc.
+
+5. Supabase - MIT License
+   Copyright (c) Supabase, Inc.
+
+6. Lucide Icons - ISC License
+   Copyright (c) Lucide Contributors.
+
+7. CoinGecko API - Free tier subject to CoinGecko's Terms of Use
+   https://www.coingecko.com/en/terms
+
+8. Dexscreener API - Free tier with rate limits
+   https://docs.dexscreener.com/
+
+For the complete text of these licenses, please refer to the licenses/ directory 
+in this repository or visit the respective project websites.
+
+===============================================================================
+
+COMMERCIAL USE
+
+For commercial licensing inquiries, please contact:
+Email: licensing@marketintel.io
+Phone: +1 (555) 123-4567
+
+Commercial licenses are available with:
+- Priority support
+- SLA guarantees
+- Custom feature development
+- White-label options
+- API rate limit increases
+- Dedicated infrastructure
+
+===============================================================================
+
+DISCLAIMER
+
+This software is provided for educational and informational purposes only. 
+Trading cryptocurrencies involves substantial risk of loss and is not suitable 
+for all investors. Past performance does not guarantee future results.
+
+The developers and copyright holders are not responsible for any financial 
+losses incurred through the use of this software. Users are advised to:
+
+1. Conduct their own research before making any trading decisions
+2. Consult with qualified financial advisors
+3. Only invest what they can afford to lose
+4. Understand the risks associated with cryptocurrency trading
+5. Comply with all applicable laws and regulations in their jurisdiction
+
+===============================================================================
+
+DATA SOURCES
+
+This platform aggregates data from:
+- CoinGecko API (https://www.coingecko.com/)
+- Dexscreener API (https://docs.dexscreener.com/)
+- Various cryptocurrency exchanges
+
+Data accuracy and availability are not guaranteed. Users should verify 
+information from multiple sources before making trading decisions.
+
+===============================================================================
+
+Last Updated: November 17, 2025
